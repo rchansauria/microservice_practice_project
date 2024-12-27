@@ -1,0 +1,13 @@
+
+  spring:
+    cloud:
+      config:
+        server:
+          git:
+            uri: https://github.com/rchansauria/microservice_practice_config/
+            clone-on-start: true
+    application:
+      name: CONFIGSERVER
+  server:
+    port: 8085
+
